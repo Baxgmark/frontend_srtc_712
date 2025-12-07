@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Page-1" id="u2QeblNb6HUO_PYUboO_">
+    <mxGraphModel dx="1042" dy="2960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="เริ่มต้น" vertex="1">
+          <mxGeometry height="60" width="100" x="342.5" y="-2310" as="geometry" />
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="ทำการประเมินตนเอง" vertex="1">
+          <mxGeometry height="60" width="130" x="327.5" y="-2210" as="geometry" />
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-4" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="ตรวจสอบ" vertex="1">
+          <mxGeometry height="90" width="85" x="350" y="-1990" as="geometry" />
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="บันทึกผลการประเมิน" vertex="1">
+          <mxGeometry height="60" width="130" x="327.5" y="-1850" as="geometry" />
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="สิ้นสุด" vertex="1">
+          <mxGeometry height="60" width="100" x="342.5" y="-1720" as="geometry" />
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-8" edge="1" parent="1" source="W4ZgtN0YmBoHW9iiU7es-4" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="-2140" as="sourcePoint" />
+            <mxPoint x="520" y="-1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="-1950" as="sourcePoint" />
+            <mxPoint x="520" y="-2180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="W4ZgtN0YmBoHW9iiU7es-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="-2180" as="sourcePoint" />
+            <mxPoint x="440" y="-2190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-11" edge="1" parent="1" source="W4ZgtN0YmBoHW9iiU7es-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="W4ZgtN0YmBoHW9iiU7es-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="-1940" as="sourcePoint" />
+            <mxPoint x="440" y="-1990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-12" edge="1" parent="1" source="W4ZgtN0YmBoHW9iiU7es-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="W4ZgtN0YmBoHW9iiU7es-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="-2070" as="sourcePoint" />
+            <mxPoint x="393" y="-2110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-13" edge="1" parent="1" source="W4ZgtN0YmBoHW9iiU7es-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="W4ZgtN0YmBoHW9iiU7es-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="-1970" as="sourcePoint" />
+            <mxPoint x="392" y="-1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-15" edge="1" parent="1" source="W4ZgtN0YmBoHW9iiU7es-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="W4ZgtN0YmBoHW9iiU7es-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="-1830" as="sourcePoint" />
+            <mxPoint x="452" y="-1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="แก้ไขการประเมิน" vertex="1">
+          <mxGeometry height="30" width="120" x="520" y="-2075" as="geometry" />
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="บันทึก" vertex="1">
+          <mxGeometry height="30" width="60" x="397.5" y="-1910" as="geometry" />
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ผังงานประเมินตนเอง" vertex="1">
+          <mxGeometry height="40" width="160" x="182.5" y="-1610" as="geometry" />
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="ส่งผลการประเมินตนเอง" vertex="1">
+          <mxGeometry height="60" width="130" x="327.5" y="-2090" as="geometry" />
+        </mxCell>
+        <mxCell id="W4ZgtN0YmBoHW9iiU7es-22" edge="1" parent="1" source="W4ZgtN0YmBoHW9iiU7es-19" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="W4ZgtN0YmBoHW9iiU7es-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="-2130" as="sourcePoint" />
+            <mxPoint x="410" y="-2070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
